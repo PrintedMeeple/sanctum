@@ -769,18 +769,18 @@ solid OpenSCAD_Model
       vertex 77.2 5.1 42.5
     endloop
   endfacet
-  facet normal 0 -1 0
+  facet normal -1 0 0
     outer loop
-      vertex 45.1 5.1 1
-      vertex 46.7 5.1 6
-      vertex 45.1 5.1 6
+      vertex 45.1 13.1 1
+      vertex 45.1 10.1 6
+      vertex 45.1 13.1 6
     endloop
   endfacet
-  facet normal 0 -1 -0
+  facet normal -1 0 -0
     outer loop
-      vertex 46.7 5.1 6
+      vertex 45.1 10.1 6
+      vertex 45.1 13.1 1
       vertex 45.1 5.1 1
-      vertex 46.7 5.1 1
     endloop
   endfacet
   facet normal -1 0 0
@@ -795,20 +795,6 @@ solid OpenSCAD_Model
       vertex 45.1 13.1 46
       vertex 45.1 5.1 41
       vertex 45.1 5.1 46
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 45.1 5.1 1
-      vertex 45.1 13.1 6
-      vertex 45.1 13.1 1
-    endloop
-  endfacet
-  facet normal -1 -0 0
-    outer loop
-      vertex 45.1 13.1 6
-      vertex 45.1 5.1 1
-      vertex 45.1 5.1 6
     endloop
   endfacet
   facet normal -1 0 0
@@ -965,17 +951,10 @@ solid OpenSCAD_Model
       vertex 46.7 10.1 1
     endloop
   endfacet
-  facet normal 1 -0 0
+  facet normal 1 0 -0
     outer loop
-      vertex 46.7 5.1 6
       vertex 46.7 10.1 1
       vertex 46.7 10.1 6
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 46.7 10.1 1
-      vertex 46.7 5.1 6
       vertex 46.7 5.1 1
     endloop
   endfacet
@@ -1051,16 +1030,23 @@ solid OpenSCAD_Model
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 45.1 5.1 6
       vertex 46.7 10.1 6
       vertex 45.1 13.1 6
+      vertex 45.1 10.1 6
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal 0 -0.707107 0.707107
     outer loop
+      vertex 45.1 10.1 6
+      vertex 46.7 5.1 1
       vertex 46.7 10.1 6
-      vertex 45.1 5.1 6
-      vertex 46.7 5.1 6
+    endloop
+  endfacet
+  facet normal 0 -0.707107 0.707107
+    outer loop
+      vertex 46.7 5.1 1
+      vertex 45.1 10.1 6
+      vertex 45.1 5.1 1
     endloop
   endfacet
 endsolid OpenSCAD_Model
